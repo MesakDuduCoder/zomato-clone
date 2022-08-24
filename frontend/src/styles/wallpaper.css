@@ -1,0 +1,317 @@
+
+
+.login{
+    position: absolute;
+    top: 10px;
+    right:70px;
+    display: inline-block;
+   
+  }
+ 
+
+  .btn1{
+  margin-right:20px;
+  
+  /* UI Properties */
+  text-align: left;
+  font-family:sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  
+  }
+  .btn2{
+  
+  text-align: left;
+  font-family:sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+
+  
+  border-radius: 3px;
+  opacity: 1;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  padding-top: 5px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  border: 1px solid rgb(252, 255, 255, 0.8);
+  
+  }
+  .logo {
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    background: white;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    margin-left: 43%;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    
+    
+  }
+  
+  .headings {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: normal;
+    position: relative;
+    margin: auto;
+    font-size: 36px;
+    top: -240px;
+    margin-bottom: 30px;
+  }
+  
+  .locationSelector {
+    position: relative;
+    top: -250px;
+    margin-left: 27.5%;
+    margin-right: 20%;
+    text-align: center;
+  }
+  
+  .locationDropdown {
+    height: 40px;
+    width: 245px;
+    color: #74819E;
+    opacity: 0.9;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
+  }
+  
+  .restaurantsinput {
+    height: 40px;
+    width: 310px;
+    color: #74819E;
+    opacity: 0.9;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    background-color: #ffffff;
+    float: left;
+    padding-left: 40px;
+  }
+  
+  .search {
+    position: absolute !important;
+    left: 275px;
+    margin-top: 1.6%;
+    color: #74819E;
+    opacity: 0.6;
+  }
+  
+  .quicksearch {
+    position: absolute;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 60px;
+    margin-top: -20px;
+  }
+  
+  .quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding-left: 35px;
+  }
+  
+  .quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: sans-serif;
+    padding-left: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px gray;
+    float: left;
+  }
+  
+  .tileComponent1 {
+    width: 45%;
+    float: left;
+  }
+  
+  .tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 22px;
+    font-weight: bold;
+    
+  }
+  
+  .componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+  
+  }
+  
+#notebooks {
+  float: left;
+}
+
+  #notebooks ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    list-style: none;
+  }
+
+  #notebooks ul li {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: #FFFFFF;
+    border-top: none;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  #notebooks ul li:hover{
+    background-color: #74819E;
+  }
+  .qs-block {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .marg-bot {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+  
+    .headings {
+      color: white;
+      text-align: center;
+      font-size: 18px;
+      font-family: sans-serif;
+      font-weight: normal;
+      position: relative;
+      margin: auto;
+      font-size: 36px;
+      top: -260px;
+      margin-bottom: 30px;
+    }
+    
+    .restaurantsinput {
+      height: 40px;
+      width: 245px;
+      color: gray;
+      border: none;
+      border-radius: 0px;
+      font-size: 15px;
+      opacity: 0.7;
+      float: left;
+    }
+    .logo {
+      text-align: center;
+      font-size: 60px;
+      color: red;
+      background: white;
+      width: 80px;
+      height: 90px;
+      border-radius: 50%;
+      position: absolute;
+      margin-left: 38%;
+      font-family: sans-serif;
+      font-weight: bold;
+      position: absolute;
+  
+    }
+    .quicksearch {
+      position: absolute;
+      margin-left: 60px;
+      margin-right: 60px;
+      padding-bottom: 60px;
+      margin-top: 5rem;
+    
+    }
+   
+  
+    
+  
+    .locationSelector {
+      position: relative;
+      top: -268px;
+      margin-left: 23.5%;
+      margin-right: 20%;
+      text-align: center;
+      
+    }
+    .search {
+      position: absolute !important;
+      left: 5px;
+      margin: 2% 0px;
+      top: 73px !important;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 1150px) {
+  
+    
+    .locationDropdown {
+      height: 40px;
+      width: 310px;
+      color: gray;
+      border: none;
+      border-radius: 0px;
+      font-size: 15px;
+      opacity: 0.7;
+      margin-right: 21px;
+      margin-bottom: 25px;
+      float: left;
+    }
+    .locationSelector {
+      position: relative;
+      top: -238px;
+      margin-left: 32.5%;
+      margin-right: 20%;
+      text-align: center;
+    }
+    .search {
+      position: absolute !important;
+      left: 5px;
+      margin: 1% 0px;
+      top: 73px !important;
+    }
+  }

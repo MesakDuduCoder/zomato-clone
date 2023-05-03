@@ -15,7 +15,7 @@ export default class SignUp extends Component {
     e.preventDefault();
     const { fname, lname, email, password } = this.state;
     console.log(fname, lname, email, password);
-    fetch("https://zomato-clone-11.herokuapp.com/register", {
+    fetch("https://zomato-clone-s5p2.onrender.com/register", {
       method: "POST",
       crossDomain: true,
       headers: {
@@ -35,7 +35,7 @@ export default class SignUp extends Component {
         console.log(data, "userRegister");
         if (data.status === "ok") {
           alert("signup successful");
-        
+
           window.location.href = "./";
         }
       });

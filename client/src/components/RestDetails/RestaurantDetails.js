@@ -22,7 +22,9 @@ export default function RestaurantDetails() {
   const [isMenuModalOpen, setisMenuModalOpen] = useState(false)
 
 useEffect(() => {
-  fetch(`http://localhost:5000/restaurant/details/${rName}`, { method: "GET" })
+  fetch(`https://zomato-clone-s5p2.onrender.com/restaurant/details/${rName}`, {
+    method: "GET",
+  })
     .then((response) => response.json())
     .then((data) => {
       setRestaurant(data.data);
@@ -30,7 +32,9 @@ useEffect(() => {
 }, [])
 
 const fetchMenu=()=>{
-  fetch(`http://localhost:5000/menu/${rName}`, { method: "GET" })
+  fetch(`https://zomato-clone-s5p2.onrender.com/menu/${rName}`, {
+    method: "GET",
+  })
     .then((response) => response.json())
     .then((data) => {
       setMenu(data.data);
@@ -62,7 +66,7 @@ const fetchMenu=()=>{
   try{
     
     let orderData;
-    orderData = await fetch("http://localhost:5000/pay", {
+    orderData = await fetch("https://zomato-clone-s5p2.onrender.com/pay", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: totalPrice }),
@@ -81,7 +85,7 @@ const fetchMenu=()=>{
     },
     handler:function(response){
       console.log(response)
-      fetch("http://localhost:5000/pay/save", {
+      fetch("https://zomato-clone-s5p2.onrender.com/pay/save", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

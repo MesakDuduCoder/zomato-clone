@@ -38,7 +38,7 @@ export default function Filter() {
   useEffect(() => {
    
       fetch(
-        `http://localhost:5000/restaurant/filter/${currentPage}`,
+        `https://zomato-clone-s5p2.onrender.com/restaurant/filter/${currentPage}`,
         requestOptions
       )
         .then((response) => response.json())
@@ -52,7 +52,7 @@ export default function Filter() {
 
 
   useEffect(() => {
-    fetch(`http://localhost:5000/location`, { method: "GET" })
+    fetch(`https://zomato-clone-s5p2.onrender.com/location`, { method: "GET" })
       .then((response) => response.json())
       .then((data) => {
         setLocations(data.data);

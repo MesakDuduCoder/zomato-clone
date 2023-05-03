@@ -25,7 +25,7 @@ export default class Login extends Component {
     e.preventDefault();
     const { email, password } = this.state;
     console.log(email, password);
-    fetch("https://zomato-clone-11.herokuapp.com/login-user", {
+    fetch("https://zomato-clone-s5p2.onrender.com/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {
@@ -44,9 +44,8 @@ export default class Login extends Component {
         if (data.status === "ok") {
           alert("login successful");
           window.localStorage.setItem("token", data.data);
-           window.location.href = "./";
+          window.location.href = "./";
         }
-        
       });
      
   };

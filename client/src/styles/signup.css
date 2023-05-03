@@ -1,0 +1,15 @@
+.signup-container{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #fd5c63;
+    padding: 50px;
+}
+.signup-block{
+    height: 500px;
+        width: 500px;
+        background-color: #A0A0A0;
+        padding: 50px;
+        color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}

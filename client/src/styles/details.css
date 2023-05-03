@@ -1,0 +1,128 @@
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    background: white;
+  }
+  
+  .tab {
+    float: left;
+  }
+  
+  .tab label {
+    background: white;
+    padding: 2px;
+    border: 1px solid white;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    top: -29px;
+    margin-right: 5px;
+  }
+  
+  .tab [type=radio] {
+    display: none;
+  }
+  
+  .content {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    border-top: 1px solid gray;
+    opacity: 0;
+  }
+  
+  [type=radio]:checked~label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+    border-bottom: solid 4px red;
+  }
+  
+  [type=radio]:checked~label~.content {
+    z-index: 1;
+    opacity: 1;
+  }
+  
+  .gallery-button {
+    position: absolute;
+    left: 83%;
+    top: 75%;
+    width: 200px;
+    height: 35px;
+    opacity: 0.6;
+    border-radius: 3px;
+    background-color: #ffffff;
+  }
+  
+  .heading {
+    width: 298px;
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .about {
+    width: 181px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .head {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  .value {
+    height: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .gallery-button {
+      position: absolute;
+      left: 55%;
+      top: 85%;
+      width: 200px;
+      height: 35px;
+      opacity: 0.6;
+      border-radius: 3px;
+      background-color: #ffffff;
+    }
+  }

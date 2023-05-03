@@ -1,0 +1,37 @@
+.my-facebook-button-class {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.fa-facebook {
+    margin-right: 5px;
+}
+
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    
+    background-color: #fd5c63;
+    padding: 50px;
+}
+.login-page{
+    height: 500px;
+    width: 500px;
+    background-color: #A0A0A0;
+    padding: 50px;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-block {
+   display: flex;
+}
+.fb-google-container{
+position: absolute;
+margin-top: 350px;
+justify-content: center;
+
+
+}

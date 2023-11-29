@@ -25,7 +25,7 @@ export default class Login extends Component {
     e.preventDefault();
     const { email, password } = this.state;
     console.log(email, password);
-    fetch("https://zomato-clone-s5p2.onrender.com/login-user", {
+    fetch("https://zomato-backend-60t1.onrender.com/login-user", {
       method: "POST",
       crossDomain: true,
       headers: {

@@ -1,3 +1,3 @@
 # zomato-clone-23
 
-live link https://zomatoclone23.netlify.app/
+[live link](https://stunning-meringue-0eb6da.netlify.app/)

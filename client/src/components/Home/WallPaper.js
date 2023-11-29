@@ -17,7 +17,7 @@ export default class  Wallpaper extends Component {
 
   componentDidMount(){
     // console.log("component did mount")
-    fetch("https://zomato-clone-s5p2.onrender.com/location", { method: "Get" })
+    fetch("https://zomato-backend-60t1.onrender.com/location", { method: "Get" })
       .then((response) => response.json())
       // .then(data=>console.log(data))
       .then((data) => this.setState({ locations: data.data }));
@@ -26,7 +26,7 @@ export default class  Wallpaper extends Component {
   fetchRestaurants=(event)=>{
     console.log(event.target.value)
     fetch(
-      `https://zomato-clone-s5p2.onrender.com/restaurant/${event.target.value}`,
+      `https://zomato-backend-60t1.onrender.com/restaurant/${event.target.value}`,
       {
         method: "Get",
       }

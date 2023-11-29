@@ -14,7 +14,7 @@ constructor(){
 }
 
 componentDidMount(){
-  fetch("https://zomato-clone-s5p2.onrender.com/mealtype", { method: "GET" })
+  fetch("https://zomato-backend-60t1.onrender.com/mealtype", { method: "GET" })
     .then((response) => response.json())
     .then((data) => this.setState({ mealtypes: data.data }));
 }

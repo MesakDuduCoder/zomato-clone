@@ -15,7 +15,7 @@ export default class SignUp extends Component {
     e.preventDefault();
     const { fname, lname, email, password } = this.state;
     console.log(fname, lname, email, password);
-    fetch("https://zomato-clone-s5p2.onrender.com/register", {
+    fetch("https://zomato-backend-60t1.onrender.com/register", {
       method: "POST",
       crossDomain: true,
       headers: {
